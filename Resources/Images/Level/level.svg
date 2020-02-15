@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   id="svg10"
+   width="1920"
+   height="1080"
+   viewBox="0 0 1920 1080"
+   sodipodi:docname="level.svg"
+   inkscape:version="0.92.2 (5c3e80d, 2017-08-06)">
+  <metadata
+     id="metadata16">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs14" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1822"
+     inkscape:window-height="1051"
+     id="namedview12"
+     showgrid="false"
+     inkscape:zoom="1.5888889"
+     inkscape:cx="503.9578"
+     inkscape:cy="227.20106"
+     inkscape:window-x="89"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg10" />
+  <image
+     sodipodi:absref="E:\Users\Sander\Documents\DAE\Porgramming 2\game\leveltrans.png"
+     xlink:href="leveltrans.png"
+     y="0"
+     x="0"
+     id="image18"
+     preserveAspectRatio="none"
+     height="1080"
+     width="1920" />
+  <path
+     style="fill:#008080"
+     d="M 960,1080 H 0 V 0 H 1920 V 1080 Z M 1380,961.75663 V 763 h 160 V 962.27858 L 1867,961 V 723 h -156 v -53 h 156 V 186 h -347 l 0.2225,-53 H 1867 V 53 H 53 v 167 l 69,0.31534 L 122.11538,273 53,273.00242 V 433 L 122,432.86647 122.21251,486 53,485.67742 53.890018,570 H 234 l -0.22249,53 H 53 V 737 H 610 V 540 h 529 V 433 H 256 l 0.0798,-53 H 410 V 220 h -96 l 0.16686,-53 h 244.60555 l -0.01,53 -52.32506,0.17219 L 463,220.31513 V 280.7221 380 H 822 V 229 h 160 v 151 l 50,0.1558 V 124 h 160 v 96 h 245 v 53 H 1192 V 593 H 663 V 790.19434 L 662.72752,789.51955 663,790.19434 53,789.73931 V 961 h 261 v -87 h 166 v 87 h 407 v -92 h 160 v 92 h 84 V 816 h 160 v 146 l 89.481,-0.11569 z"
+     id="path20"
+     inkscape:connector-curvature="0"
+     sodipodi:nodetypes="cccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccccc" />
+</svg>

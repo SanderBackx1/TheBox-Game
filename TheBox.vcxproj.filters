@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Game Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Framework Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Game Files\Level">
+      <UniqueIdentifier>{15968e53-3ce6-4ec1-9cf7-5ceda01d3a7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Level\Game Objects">
+      <UniqueIdentifier>{d5a2df8f-2f67-47c2-a8a4-bd819662f49f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Level\Game Objects\Avatar">
+      <UniqueIdentifier>{8e0c6218-299f-42bd-93bd-f9a15fe3f270}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Level\Game Objects\Bullets">
+      <UniqueIdentifier>{49a2e43e-cb00-4632-a589-09d38b22f894}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Level\Game Objects\Door">
+      <UniqueIdentifier>{1054c996-4f06-4fd4-9a97-c8935b7eb96c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Level\Game Objects\Extra lives">
+      <UniqueIdentifier>{6fb7a449-6bcc-46c5-99de-75a5a3dc55bc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Level\Game Objects\Enemies">
+      <UniqueIdentifier>{3e3be54b-bef8-4f6f-ab8b-c5cedeb97123}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Level\Game Objects\FinishChest">
+      <UniqueIdentifier>{7620e39d-bcde-43b7-bdce-a3f24cacee12}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Level\Game Objects\Keys">
+      <UniqueIdentifier>{9a611732-04fa-46fd-b8bb-b846c84decd0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Level\Game Objects\TeleportBlock">
+      <UniqueIdentifier>{9ee3fb81-067e-41da-9480-33bc26a92631}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Window">
+      <UniqueIdentifier>{e920976f-6b54-40cc-88ef-21bacef2e0dc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Window\Camera">
+      <UniqueIdentifier>{6a4e5d6b-ef1b-4045-aec5-ffcb04268e78}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Window\Light">
+      <UniqueIdentifier>{6789be8d-c72d-4c86-adc4-826d47d0cae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Window\HUD">
+      <UniqueIdentifier>{7b3235a2-c963-4f56-9fd6-2028d1d4c8ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game Files\Sound">
+      <UniqueIdentifier>{81fc9b43-43c1-4265-ae47-bc2cae39a253}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="ReadMe.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Core.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Matrix2x3.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="structs.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SVGParser.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2f.h">
+      <Filter>Framework Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Game.h">
+      <Filter>Game Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Avatar.h">
+      <Filter>Game Files\Level\Game Objects\Avatar</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>Game Files\Level\Game Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Bulletmanager.h">
+      <Filter>Game Files\Level\Game Objects\Bullets</Filter>
+    </ClInclude>
+    <ClInclude Include="Door.h">
+      <Filter>Game Files\Level\Game Objects\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="Doormanager.h">
+      <Filter>Game Files\Level\Game Objects\Door</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtraLife.h">
+      <Filter>Game Files\Level\Game Objects\Extra lives</Filter>
+    </ClInclude>
+    <ClInclude Include="ExtraLifemanager.h">
+      <Filter>Game Files\Level\Game Objects\Extra lives</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemy.h">
+      <Filter>Game Files\Level\Game Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="Enemymanager.h">
+      <Filter>Game Files\Level\Game Objects\Enemies</Filter>
+    </ClInclude>
+    <ClInclude Include="FinishChest.h">
+      <Filter>Game Files\Level\Game Objects\FinishChest</Filter>
+    </ClInclude>
+    <ClInclude Include="GameObject.h">
+      <Filter>Game Files\Level\Game Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="Key.h">
+      <Filter>Game Files\Level\Game Objects\Keys</Filter>
+    </ClInclude>
+    <ClInclude Include="Keymanager.h">
+      <Filter>Game Files\Level\Game Objects\Keys</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportBlock.h">
+      <Filter>Game Files\Level\Game Objects\TeleportBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="TeleportBlockManager.h">
+      <Filter>Game Files\Level\Game Objects\TeleportBlock</Filter>
+    </ClInclude>
+    <ClInclude Include="Level.h">
+      <Filter>Game Files\Level</Filter>
+    </ClInclude>
+    <ClInclude Include="HUD.h">
+      <Filter>Game Files\Window\HUD</Filter>
+    </ClInclude>
+    <ClInclude Include="Light.h">
+      <Filter>Game Files\Window\Light</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera.h">
+      <Filter>Game Files\Window\Camera</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundEffect.h">
+      <Filter>Game Files\Sound</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundStream.h">
+      <Filter>Game Files\Sound</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Game.cpp">
+      <Filter>Game Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Core.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Matrix2x3.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="structs.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SVGParser.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2f.cpp">
+      <Filter>Framework Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Avatar.cpp">
+      <Filter>Game Files\Level\Game Objects\Avatar</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>Game Files\Level\Game Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Bulletmanager.cpp">
+      <Filter>Game Files\Level\Game Objects\Bullets</Filter>
+    </ClCompile>
+    <ClCompile Include="Door.cpp">
+      <Filter>Game Files\Level\Game Objects\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="Doormanager.cpp">
+      <Filter>Game Files\Level\Game Objects\Door</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtraLife.cpp">
+      <Filter>Game Files\Level\Game Objects\Extra lives</Filter>
+    </ClCompile>
+    <ClCompile Include="ExtraLifemanager.cpp">
+      <Filter>Game Files\Level\Game Objects\Extra lives</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemy.cpp">
+      <Filter>Game Files\Level\Game Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="Enemymanager.cpp">
+      <Filter>Game Files\Level\Game Objects\Enemies</Filter>
+    </ClCompile>
+    <ClCompile Include="FinishChest.cpp">
+      <Filter>Game Files\Level\Game Objects\FinishChest</Filter>
+    </ClCompile>
+    <ClCompile Include="GameObject.cpp">
+      <Filter>Game Files\Level\Game Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="Key.cpp">
+      <Filter>Game Files\Level\Game Objects\Keys</Filter>
+    </ClCompile>
+    <ClCompile Include="Keymanager.cpp">
+      <Filter>Game Files\Level\Game Objects\Keys</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleportBlock.cpp">
+      <Filter>Game Files\Level\Game Objects\TeleportBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="TeleportBlockManager.cpp">
+      <Filter>Game Files\Level\Game Objects\TeleportBlock</Filter>
+    </ClCompile>
+    <ClCompile Include="Level.cpp">
+      <Filter>Game Files\Level</Filter>
+    </ClCompile>
+    <ClCompile Include="HUD.cpp">
+      <Filter>Game Files\Window\HUD</Filter>
+    </ClCompile>
+    <ClCompile Include="Light.cpp">
+      <Filter>Game Files\Window\Light</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera.cpp">
+      <Filter>Game Files\Window\Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundEffect.cpp">
+      <Filter>Game Files\Sound</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundStream.cpp">
+      <Filter>Game Files\Sound</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
